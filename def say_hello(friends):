@@ -1,0 +1,7 @@
+def say_hello(friends):
+    for friend in friends:
+    	print "Hello, " + friend
+    print "Goodbye, friends"
+
+    
+say_hello(["World", "Jack"]) 
