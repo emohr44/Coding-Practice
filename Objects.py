@@ -1,5 +1,8 @@
+# This a class that describes my pet
+
 class myPet:
 	
+	# This initializes the object with name, breed, color, and sound. 
 	def __init__(self, myName, myBreed, myColor, mySound): 
 		self.name = myName
 		self.breed = myBreed
@@ -8,6 +11,7 @@ class myPet:
 
 	def make_sound(self):
 		print (self.sound)
+
 
 pet1 = myPet("Jack", "Spaniel", "brown", "woof")
 pet2 = myPet("Pat", "Retriever", "black", "bark")

@@ -1,36 +1,3 @@
-# This is an empty dictionary
-
-phonebook = {}
-
- # These are the names and numebers in the dictionary. 
-phonebook["John"] = 938477566
-phonebook["Jack"] = 938377264
-phonebook["Jill"] = 947662781
-print(phonebook)
-
-#This is a dictionary with names and values already encoded
-phonebook = {
-    "John" : 938477566,
-    "Jack" : 938377264,
-    "Jill" : 947662781
-}
-print(phonebook)
-
-phonebook = {
-    "John" : 938477566,
-    "Jack" : 938377264,
-    "Jill" : 947662781
-}
-
-# This is deletes a  name and number from the dictionary 
-phonebook["Jake"] = 938273443
-del phonebook["Jill"]
-
-if "Jake" in phonebook:
-    print("Jake is listed in the phonebook.")
-if "Jill" not in phonebook:
-    print("Jill is not listed in the phonebook.")
-
 #this is a dictionary that stores the number of each item in an inventory
 class myInv:
 
@@ -83,6 +50,3 @@ inv1.increaseValue("Desk", 3)
 
 # This prints whats in the dictionary 
 print inv1.inv
-
-
-
